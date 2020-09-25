@@ -6,7 +6,7 @@ The given code is for providing user an access to our NGO website where they can
 
 ## Installation
 
-Use the package manager [pip]) to install.
+Use the package manager [pip]() to install.
 
 ```bash
 pip install 
