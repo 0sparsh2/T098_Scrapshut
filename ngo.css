@@ -1,0 +1,88 @@
+
+/*common*/
+
+.ngoName{
+    margin-top: 120px;;
+    text-align: center;
+}
+
+
+/*carousel css*/
+
+.imageRoll{
+    margin-top: 100px;
+}
+
+#imgs img{
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+  /* carousel ends */
+
+/*about*/
+
+.about{
+    margin:70px 0px;
+    background-color: green;
+}
+
+.reqVal{
+    width: 300px;;
+    display:flex;
+    justify-content: space-between;
+    font-size:2rem;
+}
+
+.reqVal button{
+    margin:0 5px;
+}
+
+.donate-btn{
+    margin-bottom:80px;
+}
+
+.donate-btn button{
+    width: 200px;
+    height: 40px;
+}
+
+.share{
+    margin-top:50px;
+    background-color: red;
+}
+
+.share2{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.share2 button{
+    margin:20px;
+    padding:20px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.livesChanged{
+    background-color:wheat;
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+}
+
+.changedBox div{
+    padding:20px;
+    font-size:2rem ;
+}
+
+.contactThem{
+    margin-top:50px;
+    background-color: orange;
+    margin-bottom: 50px;;
+}
+
+.contactBox{
+    padding: 30px;
+}
