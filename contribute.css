@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    top:0;
+    position: fixed;
+    width: 100vw;
+    background-color: none;
+    height: 60px;
+    font-size: 1.3rem;
+    z-index: 99999;
+    color: white;
+}
+
+.navset{
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.navset a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    cursor: pointer;
+    font-family: 'Merriweather', serif !important;
+    font-size:2rem;
+}
+
+.navset a:hover{
+    transform: scale(1.2);
+}
+
+.logo-btn a{
+    font-family: 'Merriweather', serif !important;
+    font-size: 4rem;
+    margin-top: -10px;
+}
+
+.logo-btn a:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.support-btn{
+    bottom: 40px;
+    right: 60px;
+    position: fixed;
+    background-color: aqua;
+    z-index: 99999;
+
+}
+
+.support-btn-content{
+    padding: 10px;
+    
+}
+
+.support-btn-content h3{
+   margin: 0;
+    
+}
+
+
+/* common above */
+
+.contribute-bgimg-section{
+    width: 100%;
+}
+
+.contribute-bgimg img{
+    position: relative;
+    width: 100%;
+}   
+
+.contribute-bgimg-text{
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    margin-top: -35vw;
+}
+.contribute-bgimg-text h1{
+    font-size: 10vw;
+    color: white;
+}
+
+.contribute-bgimg-text h2{
+    font-size: 8vw;
+    color: white;
+}
+
+
+
+/* Main section */
+
+.contribute-main{
+    margin-top: -4px;
+   
+}
+
+.contribute-main .container{
+    width: 100vw;
+    
+}
+
+.contribute-main .container:nth-child(1){
+    background-color: grey;
+}
+
+
+.filterbox{
+    padding: 40px;
+    text-align: center;
+}
+
+.filterbox input{
+    width: 70vw;
+}
+
+.filterfilter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filterfilter div{
+    padding: 20px;
+}
+.filterfilter div select{
+    height: 30px;
+}
+
+#contribute-list{
+    padding: 50px;
+    font-size: 3rem;
+}
+
+.select-product{
+    background-color: turquoise;
+}
+
+.ngoboxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ngobox{
+    height: 400px;
+    width: 350px;
+    background-color: wheat;
+    margin: 50px 30px;
+}
