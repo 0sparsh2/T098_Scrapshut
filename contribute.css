@@ -143,9 +143,6 @@ body{
     background-color: turquoise;
 }
 
-.product-list div{
-    
-}
 
 .product-list button{
     width:100%;
@@ -201,3 +198,38 @@ body{
     display:flex;
     justify-content: space-between;
 }
+
+
+
+/*footer*/
+
+
+.footer{
+    margin-bottom: 0;
+    position: absolute;
+    background-color: turquoise;
+    width: 100%;
+}
+
+#footerElements{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#innerfooter div{
+    padding-bottom: 20px;
+}
+
+
+#logoAndOthers a{
+    color: black;
+    font-size: larger;
+}
+
+.cr p{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    color: wheat;
+  
+  }
