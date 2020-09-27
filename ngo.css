@@ -1,3 +1,65 @@
+.navbar{
+    top:0;
+    position: fixed;
+    width: 100vw;
+    background-color: none;
+    height: 60px;
+    font-size: 1.3rem;
+    z-index: 99999;
+    color: white;
+}
+
+.navset{
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.navset a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    cursor: pointer;
+    font-family: 'Merriweather', serif !important;
+    font-size:2rem;
+}
+
+.navset a:hover{
+    transform: scale(1.2);
+}
+
+.logo-btn a{
+    font-family: 'Merriweather', serif !important;
+    font-size: 4rem;
+    margin-top: -10px;
+}
+
+.logo-btn a:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.support-btn{
+    bottom: 40px;
+    right: 60px;
+    position: fixed;
+    background-color: #138b89;
+    z-index: 99999;
+    border-radius: 10px;
+
+}
+
+.support-btn-content{
+    padding: 10px;
+    
+}
+
+.support-btn-content h3{
+   margin: 0;
+    
+}
 
 /*common*/
 
@@ -112,3 +174,36 @@ body{
 .contactBox{
     padding: 30px;
 }
+
+/**/
+
+.footer{
+    margin-bottom: 0;
+    position: absolute;
+    background-color: #18496a;
+    width: 100%;
+    color: rgb(141, 140, 138);
+}
+
+#footerElements{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#innerfooter div{
+    padding-bottom: 20px;
+}
+
+
+#logoAndOthers a{
+    color: rgb(141, 140, 138);
+    font-size: larger;
+}
+
+.cr p{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    color: wheat;
+  
+  }
