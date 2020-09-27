@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background-color: wheat;
 }
 
 .navbar{
@@ -76,6 +76,8 @@ body{
 .contribute-bgimg img{
     position: relative;
     width: 100%;
+    border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }   
 
 .contribute-bgimg-text{
@@ -109,7 +111,7 @@ body{
 }
 
 .contribute-main .container:nth-child(1){
-    background-color: grey;
+    background-color: wheat;
 }
 
 
@@ -140,7 +142,9 @@ body{
 }
 
 .select-product{
-    background-color: turquoise;
+    background-color: gray;
+    color: wheat;
+    border-radius: 10px;
 }
 
 
@@ -149,7 +153,8 @@ body{
     padding-left: 20px;
     text-align: left;
     border: none;
-    background-color: turquoise;
+    background-color: gray;
+    color: wheat;
 }
 
 
@@ -171,7 +176,7 @@ body{
 .ngobox{
     height: 400px;
     width: 350px;
-    background-color: wheat;
+    background-color: #18496a;
     margin: 50px 30px;
     border-radius: 15px;
     box-shadow: 3px 0 11px 0;
@@ -182,6 +187,7 @@ body{
     list-style-type: none ;
     padding: 0;
     font-size: 2rem;
+    color: wheat;
 }
 
 .ngobox li{
@@ -200,6 +206,27 @@ body{
 }
 
 
+.support-btn{
+    bottom: 40px;
+    right: 60px;
+    position: fixed;
+    background-color: #138b89;
+    z-index: 99999;
+    border-radius: 10px;
+
+}
+
+.support-btn-content{
+    padding: 10px;
+    
+}
+
+.support-btn-content h3{
+   margin: 0;
+    
+}
+
+
 
 /*footer*/
 
@@ -207,8 +234,9 @@ body{
 .footer{
     margin-bottom: 0;
     position: absolute;
-    background-color: turquoise;
+    background-color: #18496a;
     width: 100%;
+    color: rgb(141, 140, 138);
 }
 
 #footerElements{
@@ -222,7 +250,7 @@ body{
 
 
 #logoAndOthers a{
-    color: black;
+    color: rgb(141, 140, 138);
     font-size: larger;
 }
 
@@ -233,3 +261,4 @@ body{
     color: wheat;
   
   }
+

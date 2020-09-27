@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: wheat;
+    sbackground-color: rgba(66, 64, 59, 0.719);
+    background-image: radial-gradient(rgb(75, 75, 75), rgb(82, 81, 81), rgb(46, 45, 45));
 }
 
 .navbar {
@@ -47,23 +48,24 @@ body {
 
 
 
-.support-btn {
+.support-btn{
     bottom: 40px;
     right: 60px;
     position: fixed;
-    background-color: aqua;
+    background-color: #138b89;
     z-index: 99999;
+    border-radius: 10px;
 
 }
 
-.support-btn-content {
+.support-btn-content{
     padding: 10px;
-
+    
 }
 
-.support-btn-content h3 {
-    margin: 0;
-
+.support-btn-content h3{
+   margin: 0;
+    
 }
 
 
@@ -99,13 +101,18 @@ body {
 }
 
 .reqVal button {
-    margin: 0 5px;
+    margin: 0 15px;
 }
 
 #mainPage {
     margin: 0;
     width: 100%;
     text-align: center;
+}
+
+#mainPage img{
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .checkoutResult {
@@ -139,6 +146,7 @@ body {
     height: 30px;
     width: 130px;
     border-radius: 5px;
+    margin-top: 7px;
 }
 
 
