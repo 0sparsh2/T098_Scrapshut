@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="checkout.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Help Centre</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="navbar">
+            <div class="navset">
+                <div class="Contribute-btn" style="width: 120px;">
+                    <!-- Redirects to contribute page -->
+                    <a href="contribute.html">Contribute</a>
+                </div>
+                <div class="aboutus-btn" style="width: 120px;">
+                    <!-- Redirects to some page -->
+                    <a href="#">Unsure Page</a>
+                </div>
+                <div class="logo-btn" style="width: 120px;">
+                    <!-- Redirects to Home page -->
+                    <a href="">WireUs</a>
+                </div>
+                <div class="ngo-login-btn" style="width: 120px;">
+                    <!-- Redirects login area -->
+                    <a href="#">Log in</a>
+                </div>
+                <div class="user-login-btn" style="width: 120px;">
+                    <!-- Redirects to sign up -->
+                    <a href="#">NGO?</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Supprt button -->
+
+    <div class="support-btn">
+        <div class="support-btn-content">
+            <h3>HELP</h3>
+        </div>
+    </div>
+
+    <!-- arrow header -->
+
+    <div class="arrow">
+        <div class="arrow-inner">
+            <div class="arrow-current">
+                Checkout
+            </div>
+            <div class="arrow-later">
+                Pay
+            </div>
+        </div>
+    </div>
+
+    <!-- Main page -->
+
+    <div class="container" id="mainPage">
+        <div class="row">
+            <div class="col-lg-4 col-med-6 col-sm-12">
+                <img src="" style="height:400px; width: 400px;">
+            </div>
+
+
+            <div class="col-lg-4 col-med-6 col-sm-12">
+                <div>
+                    <div>
+                        <h1>Your Final Donation List</h1>
+                        <h2>
+                            NGO Name
+                        </h2>
+                    </div>
+
+                    <!-- final values -->
+
+                    <div style="margin-top:30px ;">
+                        <div class="product-list">
+                            <!-- list of products -->
+                            <ul style="list-style-type: none; padding: 0;">
+                                <li>
+
+
+
+                                    <div class="reqVal">
+
+
+                                        <div>Beds
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">100</div>
+                                            <div>
+                                                <button onclick="add1()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q1">7</div>
+                                            <div>
+                                                <button onclick="sub1()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>N95 Masks
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                40
+                                            </div>
+                                            <div>
+                                                <button onclick="add2()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q2">3
+                                            </div>
+                                            <div>
+                                                <button onclick="sub2()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>Food packages
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add3()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q3">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub3()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>Ventilators
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add4()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q4">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub4()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>PPE Kit
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add5()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q5">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub5()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>Medicine
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add6()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q6">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub6()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>Monatory Help
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add7()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q7">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub7()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="reqVal">
+                                        <div>Other
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="price">
+                                                100
+                                            </div>
+                                            <div>
+                                                <button onclick="add8()">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="quantity" id="q8">1
+                                            </div>
+                                            <div>
+                                                <button onclick="sub8()">
+                                                    -
+                                                </button>
+                                            </div>
+                                            <div class="finalprice">
+                                                0
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- values -->
+
+
+            </div>
+            <div class="col-lg-4 col-med-12 col-sm-12">
+                <div class="checkoutResult">
+                    <div class="resultHead">
+                        <h2>Order Summary</h2>
+                    </div>
+                    <div class="resultPrices">
+                        <div style="display:flex; justify-content: space-between;" class="vals">
+                            <div>Item Subtotal</div>
+                            <div id="subtotal">₹ 100.00 </div>
+                        </div>
+                        <div style="display:flex; justify-content: space-between;" class="vals">
+                            <div>Price with GST(18%)</div>
+
+                            <div id="valtax">₹ 118.00</div>
+                        </div>
+                    </div>
+                    <div class="proceed">
+                        <div class="proceedArea">
+                            <button>
+                                <div>
+                                    Click TO PAY
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ad">
+                    <div class="adimg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ad-MediumRectangle-300x250.jpg">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="checkout.js"></script>
+</body>
+
+</html>

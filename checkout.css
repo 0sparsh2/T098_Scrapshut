@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: none;
+    height: 60px;
+    font-size: 1.3rem;
+    z-index: 99999;
+    color: white;
+}
+
+.navset {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.navset a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    cursor: pointer;
+    font-family: 'Merriweather', serif !important;
+    font-size: 2rem;
+}
+
+.navset a:hover {
+    transform: scale(1.2);
+}
+
+.logo-btn a {
+    font-family: 'Merriweather', serif !important;
+    font-size: 4rem;
+    margin-top: -10px;
+}
+
+.logo-btn a:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.support-btn {
+    bottom: 40px;
+    right: 60px;
+    position: fixed;
+    background-color: aqua;
+    z-index: 99999;
+
+}
+
+.support-btn-content {
+    padding: 10px;
+
+}
+
+.support-btn-content h3 {
+    margin: 0;
+
+}
+
+
+/* common above */
+
+.arrow {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.arrow-inner {
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.arrow-current {
+    height: 40px;
+    background-color: yellowgreen;
+    width: 100%;
+}
+
+.arrow-later {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+.reqVal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.reqVal button {
+    margin: 0 5px;
+}
+
+#mainPage {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.checkoutResult {
+    background-color: tomato;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.resultHead {
+    padding: 30px 30px 0 30px;
+}
+
+.resultPrices {
+    margin-top: -20px;
+    text-align: left;
+    padding: 40px 0px 40px 60px;
+}
+
+.resultPrices h4 {
+    float: right;
+}
+
+.vals {
+    padding: 20px 20px 0 0;
+    font-size: 2rem;
+}
+
+.proceedArea button {
+    border: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+
+.adimg {
+    float: right;
+    margin-top: 40px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
